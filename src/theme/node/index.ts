@@ -52,15 +52,7 @@ const writePostItems = async (app: App) => {
   );
 };
 
-const convertAssetLinks = async (app: App) => {
-  for (let i = 0; i < app.pages.length; i++) {
-    const page = app.pages[i];
-    console.log(page.content);
-    app.pages[i].content = "HAHA";
-  }
-  for (const page of app.pages) {
-  }
-};
+const convertAssetLinks = async (app: App) => {};
 
 export const arcticBeardTheme = (options: any): Theme => {
   return (app) => {

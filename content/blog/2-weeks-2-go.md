@@ -13,9 +13,9 @@ We'll be at Nordsken in Skellefteå in two weeks (30th May-1st June) showcasing 
 be sure to come see us at our booth and try out our game!  
 This weekend we joined forces at the **Arctic Beard Emergency HQ**, crunching to get the demo ready.
 Here are two shiny new screenshots from our game!
-![Super awesome freeze frame](2-weeks-2-go/freeze-frame.png)  
+![Super awesome freeze frame](/blog/2-weeks-2-go/freeze-frame.png)  
 
-![Guards have no clue](2-weeks-2-go/guards-have-no-clue.png) 
+![Guards have no clue](/blog/2-weeks-2-go/guards-have-no-clue.png) 
 
 Ugh, bet those guards had no clue what was going on!
 
@@ -26,6 +26,6 @@ We even voted for Norway, which had (probably) the best song of all time.
 We also started up our own Discord channel where all of you can get the latest updates from our game and
 be a part of the development from the very start! Be sure to join us!
 https://discord.gg/pYeGYAr
-![Join our discord channel](2-weeks-2-go/arctic-beard-studio-discord.png) 
+![Join our discord channel](/blog/2-weeks-2-go/arctic-beard-studio-discord.png) 
 
 More updates will follow with a gameplay video after Nordsken!

@@ -11,7 +11,7 @@ This might be the worlds shortest blog post...
 But it's friday, get off my back!
 
 We finally got our **custom rendering** stuff (yes i know very technical) working!  
-![You can't see it because something is wrong :(](ohh-shiny/custom-rendering.PNG)  
+![You can't see it because something is wrong :(](/blog/ohh-shiny/custom-rendering.png)  
 Ain't it beautiful?
 Watch out for some good stuff with this bad boy on it!
 

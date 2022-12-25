@@ -35,7 +35,7 @@ Great, let's do it!
 
 I typed "mixamo.com" into the address bar, found a sweet dancing animation and downloaded it.  
 Which looks like 👇 for reference.
-![it isn't as effect full without the image :(](today-i-rigged/0001-0098-ref.gif)  
+![it isn't as effect full without the image :(](/blog/today-i-rigged/0001-0098-ref.gif)  
 Nothing fancy yet...
 
 But it wasn't a great fit for our skeleton/rig.  
@@ -49,7 +49,7 @@ This is the point where the naive section of my brain kicks in and i think...
 
 I do it easy peasy! Ok, let's see it, <i>\*hits Alt + A\*</i>
 
-![it isn't as effect full without the image :(](today-i-rigged/0001-0098.gif)
+![it isn't as effect full without the image :(](/blog/today-i-rigged/0001-0098.gif)
 
 <!-- <table align="center" id="button-for-hidden-stuff" style="border: none; background: none; margin-bottom: 16px;">
     <tr style="border: none; background: none;">

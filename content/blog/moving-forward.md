@@ -15,19 +15,19 @@ pageType: post
 We've been silent for a while now but we've been busy applying for a grant to the [The Ministry of Silly Walks](https://en.wikipedia.org/wiki/The_Ministry_of_Silly_Walks).  
 And everything was going fine!  
 
-![Imagine someone flailing around with his arms here](moving-forward/flailing.gif)
+![Imagine someone flailing around with his arms here](/blog/moving-forward/flailing.gif)
 
 But then we hit a wall...
 
-![Imagine someone running into a wall repeatedly](moving-forward/wall-run.gif)
+![Imagine someone running into a wall repeatedly](/blog/moving-forward/wall-run.gif)
 
 Not being too discouraged, we managed to rise from the ashes, reborn again like a phoenix we implemented auto crouch.
 
-![Imagine someone gracefully crouch under an obstacle](moving-forward/auto-crouch.gif)
+![Imagine someone gracefully crouch under an obstacle](/blog/moving-forward/auto-crouch.gif)
 
 So in the end we're happily moving forward!
 
-![Imagine someone being really happy :D](moving-forward/happy.gif)
+![Imagine someone being really happy :D](/blog/moving-forward/happy.gif)
 
 Jokes aside...  
 This is actually a final product.  
