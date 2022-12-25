@@ -1,7 +1,8 @@
 ---
-Nick: Vallsten
-Name: Peter Vallsten
-Role: Programmer
-Template: beard
+pageType: beard
+nick: Vallsten
+name: Peter Vallsten
+role: Programmer
 ---
+
 << description >>

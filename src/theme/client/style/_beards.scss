@@ -1,0 +1,33 @@
+.beards {
+    a {
+        color: $base05;
+    }
+
+    .beard {
+        padding: 1em;
+
+        &:hover {
+            opacity: 0.5;
+        }
+    }
+
+    @include media('>=tablet') {
+        .beard-name,
+        .beard-nick,
+        .beard-role {
+            display: inline-block;
+        }
+
+        .beard-name {
+            width: 35%;
+        }
+        .beard-nick,
+        .beard-role {
+            width: 30%;
+        }
+    }
+
+    @include media('<tablet') {
+        text-align: center;
+    }
+}

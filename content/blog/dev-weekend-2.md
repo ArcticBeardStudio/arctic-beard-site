@@ -1,11 +1,11 @@
 ---
-Title:  Dev Weekend 2
-Date:  21 Mars 2019
-Time:  1555269993
-Author: Garm
-Description:  
-Img:  header.png
-Template:  blog-item
+title:  Dev Weekend 2
+date:  21 Mars 2019
+time:  1555269993
+author: Garm
+description:  
+img:  header.png
+pageType: post
 ---
 Sorry we missed a post during *Dev Weekend 1* two weeks ago... 😞
 

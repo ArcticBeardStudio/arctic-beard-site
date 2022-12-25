@@ -1,0 +1,30 @@
+.posts {
+  a {
+    color: $base05;
+  }
+
+  .post {
+    &:hover {
+      opacity: 0.5;
+    }
+
+    .post-header {
+      .post-title {
+        margin-bottom: 0.5rem;
+      }
+      .post-date {
+        float: right;
+      }
+      .post-date,
+      .post-author {
+        @include responsive-font(0.5em, 16px, 32px);
+      }
+    }
+
+    .post-description {
+      p {
+        margin-top: 0.5rem;
+      }
+    }
+  }
+}

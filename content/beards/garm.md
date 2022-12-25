@@ -1,7 +1,8 @@
 ---
-Nick: Garm
-Name: Henrik Melsom
-Role: Technical Artist
-Template: beard
+pageType: beard
+nick: Garm
+name: Henrik Melsom
+role: Technical Artist
 ---
+
 << description >>

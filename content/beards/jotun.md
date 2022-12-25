@@ -1,7 +1,8 @@
 ---
-Nick: Jotun
-Name: Tomas Nygren
-Role: Artist
-Template: beard
+pageType: beard
+nick: Jotun
+name: Tomas Nygren
+role: Artist
 ---
+
 << description >>

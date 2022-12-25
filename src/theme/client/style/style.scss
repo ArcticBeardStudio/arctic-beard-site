@@ -1,0 +1,371 @@
+@import 'node_modules/include-media/dist/_include-media';
+$breakpoints: (phone: 320px, tablet: 768px, desktop: 1024px, large-desktop: 1400px);
+@import '_colors';
+@import '_typography';
+@import 'icomoon';
+$hamburger-types: (elastic);
+$hamburger-layer-color: $base05;
+@import 'node_modules/hamburgers/_sass/hamburgers/hamburgers';
+
+$sidebar-width: 320px;
+
+@import '_home';
+@import '_blog';
+@import '_beards';
+
+// GLOBAL
+
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    box-sizing: border-box;
+    height: 100%;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    box-sizing: border-box;
+    position: relative;
+    padding-bottom: 60px;
+    padding-left: 32px;
+    padding-right: 32px;
+    min-height: 100%;
+
+    background: $base00;
+    color: $base05;
+
+    @include media('<desktop') {
+        padding-top: 60px;
+    }
+    @include media('>=desktop') {
+        padding-left: $sidebar-width + 32px;
+    }
+}
+
+a {
+    color: $base08;
+    text-decoration: none;
+    opacity: 1;
+
+    &:hover {
+        opacity: 0.5;
+    }
+}
+
+pre, code {
+    padding: 0.1em 0.2em;
+    border: solid 1px $base02;
+    border-radius: 4px;
+    background: $base01;
+}
+
+pre code {
+    border: none;
+}
+
+pre {
+    overflow-y: hidden;
+    overflow-x: scroll;
+}
+
+table { border-spacing: 0; }
+
+td, th {
+    padding: 0.2em 0.5em;
+    vertical-align: top;
+}
+th {
+    font-weight: bold;
+    text-align: center;
+    background: $base01;
+}
+
+td, th {                                         border: solid 1px $base02; }
+tr:not(:last-child) td, tr:not(:last-child) th { border-bottom: 0 none; }
+thead tr:last-child th {                         border-bottom: 0 none; }
+td:not(:last-child), th:not(:last-child) {       border-right: 0 none; }
+
+blockquote {
+    margin: 24px 20px;
+    padding: 0 20px;
+    border-left: 4px solid $base04;
+    font-weight: 200;
+
+    color: $base04;
+}
+
+hr {
+    border: 2px solid $base01;
+}
+
+// SIDEBAR
+
+#sidebar {
+    position: fixed;
+    z-index: 3;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: $sidebar-width;
+    text-align: center;
+
+    background: $base01;
+
+    a {
+        img {
+            box-sizing: content-box;
+            padding: 32px;
+            max-width: 75%;
+
+            @include media('<tablet') {
+                max-height: 25%;
+                margin: auto;
+            }
+        }
+
+        &:hover {
+            opacity: 1;
+        }
+    }
+
+    ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+
+        li {
+
+            a {
+                padding: 16px 0;
+                display: block;
+                color: $base04;
+
+                &:hover {
+                    background: $base02;
+                }
+
+                &.active {
+                    color: $base05;
+                }
+            }
+
+            &.active {
+                background: $base02;
+            }
+        }
+    }
+
+    @include media('<desktop') {
+        left: -$sidebar-width;
+
+        @include media('<tablet') {
+            width: 100%;
+            left: -100%;
+
+            iframe {
+                width: 100%;
+            }
+        }
+
+        &.sidebar-open {
+            left: 0;
+        }
+
+        transition: left 0.5s cubic-bezier(.87,-.41,.19,1.44);
+    }
+
+    .sidebar-footer {
+        position: absolute;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        padding-bottom: 16px;
+    }
+}
+
+#sidebar-btn {
+    position: absolute;
+    z-index: 3;
+    top: 0;
+    right: -70px;
+
+    @include media('>=desktop') {
+        display: none;
+    }
+
+    @include media('<tablet') {
+        &.is-active {
+            right: 0;
+        }
+
+        transition: right 0.5s cubic-bezier(.87,-.41,.19,1.44);
+    }
+}
+
+#header {
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+
+    background: $base01;
+
+    @include media('>=desktop') {
+        display: none;
+    }
+}
+
+#iron-curtain {
+    z-index: 2;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    background: $base00;
+    opacity: 0.75;
+
+    display: none;
+
+    @include media('<desktop') {
+        &.is-active {
+            display: block;
+        }
+    }
+}
+
+// MAIN
+
+#main {
+    .head {
+        position: absolute;
+        top: 60px;
+        left: 0;
+        right: 0;
+        height: 400px;
+
+        @include media('>desktop') {
+            top: 0;
+            left: $sidebar-width;
+        }
+
+        .img {
+            z-index: -2;
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 400px;
+            background-size: cover;
+            background-position: center;
+            opacity: 0.5;
+        }
+
+        .text {
+            width: 100%;
+            height: 100%;
+            display: table;
+
+            .text-cell {
+                display: table-cell;
+                text-align: center;
+                vertical-align: middle;
+
+                .title {
+                    margin: 0;
+                }
+                .author {
+                    font-weight: 400;
+                    margin-bottom: 20px;
+                }
+                .date {
+                    font-weight: 200;
+                }
+            }
+        }
+    }
+
+    .content {
+        width: 800px;
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 1px; // wierd box sizing unless padding > 0
+
+        &.has-img {
+            padding-top: 420px;
+        }
+
+        img {
+            text-align: center;
+            box-sizing: content-box;
+            display: block;
+            margin: 0 auto;
+            max-height: 400px;
+            max-width: 100%;
+        }
+
+        .aspect-16-9 {
+            position: relative;
+            width: 100%;
+            height: 0;
+            padding-bottom: 56.25%;
+            
+            iframe {
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                left: 0; top: 0;
+            }
+        }
+    }
+}
+
+// FOOTER
+
+#footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 60px;
+    background-color: $base01;
+    text-align: center;
+
+    @include media('>desktop') {
+        left: $sidebar-width;
+    }
+
+    .social {
+        width: 100%;
+        height: 100%;
+        display: table;
+        
+        .social-cell {
+            display: table-cell;
+            vertical-align: middle;
+            color: $base05;
+            
+            &:hover {
+                background: $base02;
+            }
+
+            .social-text {
+                @include media('<large-desktop') {
+                    display: none;
+                }
+            }
+        }
+    }
+}

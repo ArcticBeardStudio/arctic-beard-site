@@ -1,13 +1,13 @@
 ---
-Title:  Pre-Crunch Crunch!
-Date:  11 January 2019
-Time:  1547245881
-Authors:
+title:  Pre-Crunch Crunch!
+date:  11 January 2019
+time:  1547245881
+authors:
 -  Garm
 -  Vallsten
-Description:  We're not dead yet, and we updated our website!
-Img:  header.jpg
-Template:  blog-item
+description:  We're not dead yet, and we updated our website!
+img:  header.jpg
+pageType: post
 ---
 Our website has been hibernating for while but it recently woke and it's looking a lot more arctic and beardy.  
 We got some work left but, if you have any troubles with the site please let us know! (social media stuff at the bottom of the page)

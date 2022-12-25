@@ -1,33 +1,33 @@
 ---
-Title:  Moving Forward
-Date:  21 Mars 2019
-Time:  1553201778
-Authors:
+title:  Moving Forward
+date:  21 Mars 2019
+time:  1553201778
+authors:
 -  Garm
 -  Vallsten
 -  Boje
 -  Jotun
 -  Hasse
-Description:  
-Img:  header.png
-Template:  blog-item
+description:  
+img:  header.png
+pageType: post
 ---
 We've been silent for a while now but we've been busy applying for a grant to the [The Ministry of Silly Walks](https://en.wikipedia.org/wiki/The_Ministry_of_Silly_Walks).  
 And everything was going fine!  
 
-![Imagine someone flailing around with his arms here](%asset%/flailing.gif)
+![Imagine someone flailing around with his arms here](moving-forward/flailing.gif)
 
 But then we hit a wall...
 
-![Imagine someone running into a wall repeatedly](%asset%/wall-run.gif)
+![Imagine someone running into a wall repeatedly](moving-forward/wall-run.gif)
 
 Not being too discouraged, we managed to rise from the ashes, reborn again like a phoenix we implemented auto crouch.
 
-![Imagine someone gracefully crouch under an obstacle](%asset%/auto-crouch.gif)
+![Imagine someone gracefully crouch under an obstacle](moving-forward/auto-crouch.gif)
 
 So in the end we're happily moving forward!
 
-![Imagine someone being really happy :D](%asset%/happy.gif)
+![Imagine someone being really happy :D](moving-forward/happy.gif)
 
 Jokes aside...  
 This is actually a final product.  

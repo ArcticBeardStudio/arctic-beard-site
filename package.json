@@ -1,12 +1,18 @@
 {
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "vuepress dev content",
     "build": "vuepress build content"
   },
   "devDependencies": {
     "@vuepress/client": "2.0.0-beta.59",
+    "@vuepress/core": "2.0.0-beta.59",
+    "@vuepress/utils": "2.0.0-beta.59",
+    "tsconfig-vuepress": "^4.0.4",
     "vue": "^3.2.45",
-    "vuepress": "2.0.0-beta.59"
+    "vuepress": "2.0.0-beta.59",
+    "include-media": "^1.4.9",
+    "hamburgers": "^1.1.3"
   }
 }

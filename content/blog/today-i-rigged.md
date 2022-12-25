@@ -1,12 +1,13 @@
 ---
-Title: Today I rigged
-Date: 15 August 2018
-Time: 1534291200
-Author: Garm
-Description: Okay this is what happened... Like many other games we need animations for our character so...
-Img: 20180730_182032.jpg
-Template: blog-item
+title: Today I rigged
+date: 15 August 2018
+time: 1534291200
+author: Garm
+description: Okay this is what happened... Like many other games we need animations for our character so...
+img: 20180730_182032.jpg
+pageType: post
 ---
+
 <style>
     .hidden {
         display: none;
@@ -23,9 +24,10 @@ Template: blog-item
             stuff.scrollIntoView()
     }
 </script>
+
 Okay this is what happened...
 
-Like many other games we need animations for our character so, I loaded up Blender and opened our rigged character (with automatic weights... *don't tell anyone* 👀).
+Like many other games we need animations for our character so, I loaded up Blender and opened our rigged character (with automatic weights... _don't tell anyone_ 👀).
 
 I had an idea, why animate if we can just grab some from Mixamo?  
 We might want custom animation later but it should be good for now.  
@@ -33,7 +35,7 @@ Great, let's do it!
 
 I typed "mixamo.com" into the address bar, found a sweet dancing animation and downloaded it.  
 Which looks like 👇 for reference.
-![it isn't as effect full without the image :(](%asset%/0001-0098-ref.gif)  
+![it isn't as effect full without the image :(](today-i-rigged/0001-0098-ref.gif)  
 Nothing fancy yet...
 
 But it wasn't a great fit for our skeleton/rig.  
@@ -45,8 +47,11 @@ This is the point where the naive section of my brain kicks in and i think...
 > I just need to constraint some world positions and rotations from the source to target.  
 > It might need some offsets and tweaks but it'll be fine! -💩
 
-I do it easy peasy! Ok, let's see it, <i>\*hits Alt + A\*</i>  
-<table align="center" id="button-for-hidden-stuff" style="border: none; background: none; margin-bottom: 16px;">
+I do it easy peasy! Ok, let's see it, <i>\*hits Alt + A\*</i>
+
+![it isn't as effect full without the image :(](today-i-rigged/0001-0098.gif)
+
+<!-- <table align="center" id="button-for-hidden-stuff" style="border: none; background: none; margin-bottom: 16px;">
     <tr style="border: none; background: none;">
         <th style="border: none; background: none;">
 			<a href="javascript:showHiddenStuff()" style="content-align: center">Reveal</a>
@@ -54,11 +59,8 @@ I do it easy peasy! Ok, let's see it, <i>\*hits Alt + A\*</i>
     </tr>
 </table>
 <div id="hidden-stuff" class="hidden">
-    <img src="%asset%/0001-0098.gif">
+    <img src="today-i-rigged/0001-0098.gif">
     <h1>
         Great, let's ship it!
     </h1>
-</div>
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzOTg5NDM5MiwtMTY5NTU3MTk4M119
--->
+</div> -->

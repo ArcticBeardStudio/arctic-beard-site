@@ -1,7 +1,8 @@
 ---
-Nick: Hasse
-Name: Hans Granlund
-Role: Programmer
-Template: beard
+pageType: beard
+nick: Hasse
+name: Hans Granlund
+role: Programmer
 ---
+
 << description >>

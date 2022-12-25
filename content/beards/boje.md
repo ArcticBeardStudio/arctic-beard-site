@@ -1,7 +1,8 @@
 ---
-Nick: Boje
-Name: Mathias Litzén
-Role: Programmer
-Template: beard
+pageType: beard
+nick: Boje
+name: Mathias Litzén
+role: Programmer
 ---
+
 << description >>
