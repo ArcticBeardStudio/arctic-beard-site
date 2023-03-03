@@ -10,7 +10,9 @@ export function App() {
   );
 }
 
-hydrate(<App />);
+if (typeof window !== "undefined") {
+  hydrate(<App />, document.body);
+}
 
 export async function prerender(data: any) {
   return await ssr(<App {...data} />);
