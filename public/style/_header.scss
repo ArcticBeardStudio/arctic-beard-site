@@ -17,7 +17,7 @@ header {
 
   p {
     z-index: 1;
-    font-size: 5vh;
+    font-size: min(5vw, 5vh);
   }
 
   img {
