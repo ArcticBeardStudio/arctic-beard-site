@@ -1,0 +1,10 @@
+@import '_colors';
+@import "_typography";
+
+@import "_header";
+
+html,
+body {
+  margin: 0;
+  background-color: $base00;
+}
